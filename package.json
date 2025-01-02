@@ -35,7 +35,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "update-browserslist": "npx update-browserslist-db@latest --update-db"
+    "update-browserslist": "npx update-browserslist-db@latest --update-db",
+    "postinstall": "npm install --legacy-peer-deps"
   },
   "eslintConfig": {
     "extends": [
